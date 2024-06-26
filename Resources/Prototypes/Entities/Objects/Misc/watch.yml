@@ -1,0 +1,14 @@
+- type: entity
+  parent: BaseItem
+  id: PocketWatch
+  name: pocket watch
+  description: A watch!
+  components:
+  - type: ShiftClock
+  - type: Item
+    sprite: Objects/Devices/gps.rsi
+  - type: Sprite
+    sprite: Objects/Devices/gps.rsi
+    layers:
+    - state: icon
+    - state: active

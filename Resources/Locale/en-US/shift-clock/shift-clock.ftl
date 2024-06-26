@@ -1,0 +1,1 @@
+clock-component-on-examine-context = It reads [color=yellow]{$time}[/color] since the start of the shift.
