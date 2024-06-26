@@ -1,6 +1,5 @@
 using Content.Shared.Examine;
 using Robust.Shared.Timing;
-using Content.Shared.Interaction.Events;
 using Content.Shared.GameTicking;
 
 namespace Content.Shared.ShiftClock;
@@ -25,9 +24,6 @@ public sealed partial class ShiftClockSystem : EntitySystem
         string currentTime = CurrentTimeAsString();
         string readText = Loc.GetString(comp.ContextTextExamine, ("time", currentTime));
         args.PushMarkup(readText);
-        // var sealedText = comp.Sealed ? Loc.GetString(comp.ExamineTextSealed) : Loc.GetString(comp.ExamineTextUnsealed);
-
-        // args.PushMarkup(sealedText);
     }
 
     private string CurrentTimeAsString()
