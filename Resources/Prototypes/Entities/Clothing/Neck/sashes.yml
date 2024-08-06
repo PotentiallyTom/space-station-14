@@ -1,0 +1,72 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckSashBlue
+  name: blue sash
+  description: A light blue sash. It smells of medicine. 
+  components:
+  - type: Sprite
+    sprite: Clothing/Neck/Sashes/bluesash.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckSashDarkBlue
+  name: dark blue sash
+  description: A dark blue sash. The fabric is rather luxurious.  
+  components:
+  - type: Sprite
+    sprite: Clothing/Neck/Sashes/darkbluesash.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckSashGreen
+  name: green sash
+  description: A green sash. It smells of rubbing alcohol.
+  components:
+  - type: Sprite
+    sprite: Clothing/Neck/Sashes/greensash.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckSashGrey
+  name: grey sash
+  description: A gloriously grey sash.
+  components:
+  - type: Sprite
+    sprite: Clothing/Neck/Sashes/greysash.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckSashOrange
+  name: orange sash
+  description: An orange sash. The edge is burnt near the waist.
+  components:
+  - type: Sprite
+    sprite: Clothing/Neck/Sashes/orangesash.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckSashPurple
+  name: purple sash
+  description: A purple sash. It is in good condition.
+  components:
+  - type: Sprite
+    sprite: Clothing/Neck/Sashes/purplesash.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckSashRed
+  name: red sash
+  description: A red sash. The edges are frayed.  
+  components:
+  - type: Sprite
+    sprite: Clothing/Neck/Sashes/redsash.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckSashYellow
+  name: yellow sash
+  description: A yellow sash. It smells of engine grease.
+  components:
+  - type: Sprite
+    sprite: Clothing/Neck/Sashes/yellowsash.rsi
+
